@@ -1,0 +1,42 @@
+{
+    "name": "3.3-0V pot servo controll",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "audio-recording": "*",
+        "servo": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "pxt-meter": "github:grandpabond/pxt-meter#v0.1.20",
+        "radio-broadcast": "*",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.10",
+        "microbit-pxt-clicks": "github:bsiever/microbit-pxt-clicks#v0.2.2",
+        "states": "github:hovavo/pxt-states#v2.0.5",
+        "pxt-max7219_8x8": "github:alankrantas/pxt-max7219_8x8#v0.0.3",
+        "power": "github:microbit-foundation/pxt-microbit-v2-power#v0.2.7",
+        "microbit-pxt-rotate": "github:bsiever/microbit-pxt-rotate#v0.1.6",
+        "pxt-flexfx": "github:grandpabond/pxt-flexfx#v2.2.7",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "Wait Until Custom Blocks": "github:teacherpinky/wait-until-blocks#v0.1.12",
+        "pxt-kitronik-viewtext32": "github:kitronikltd/pxt-kitronik-viewtext32#v1.2.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.57",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
